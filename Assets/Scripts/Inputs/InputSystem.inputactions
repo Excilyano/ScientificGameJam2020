@@ -1,0 +1,44 @@
+{
+    "name": "InputSystem",
+    "maps": [
+        {
+            "name": "Default map",
+            "id": "f1f6500d-dcb2-404c-ab2e-c3a41234f680",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "658c1a88-c125-47fd-a3ea-cfd0b3131560",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "12770a0c-fbb5-40bb-be41-917cc0bd0953",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "801e9000-89e7-417a-b27e-83562f605b9e",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
